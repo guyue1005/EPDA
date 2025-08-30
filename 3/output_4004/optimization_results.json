@@ -1,0 +1,39 @@
+{
+  "simulated_annealing": {
+    "best_cost": 0.15293691585996955,
+    "iteration_count": 2127,
+    "convergence_reason": "温度达到终止条件",
+    "execution_time": 46.45867586135864,
+    "analysis": {
+      "convergence_reason": "温度达到终止条件",
+      "total_iterations": 2127,
+      "final_cost": 0.15293691585996955,
+      "cost_improvement": -10.054550005462083,
+      "temperature_profile": {
+        "initial_temp": 1000.0,
+        "final_temp": 0.1029260596118194,
+        "cooling_steps": 2128
+      },
+      "convergence_speed": -6.740911663142457e-06
+    }
+  },
+  "neural_architecture_search": {
+    "fitness": 0.7298601908756103,
+    "execution_time": 128.97549700737,
+    "analysis": {
+      "total_nodes": 107,
+      "onn_nodes": 53,
+      "electronic_nodes": 54,
+      "balance_ratio": 0.9814814814814815,
+      "total_connections": 40,
+      "avg_connections_per_node": 0.37383177570093457,
+      "layer_config": {
+        "hidden_layers": 1,
+        "neurons_per_layer": 16,
+        "activation": "tanh",
+        "dropout_rate": 0.25355393372172036
+      },
+      "fitness": 0.7298601908756103
+    }
+  }
+}

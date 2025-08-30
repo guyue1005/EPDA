@@ -1,0 +1,48 @@
+{
+  "dfg_file": "dfg_files/4004.txt",
+  "output_dir": "output_4004",
+  "optimization": {
+    "simulated_annealing": {
+      "enabled": true,
+      "initial_temperature": 1000.0,
+      "final_temperature": 0.1,
+      "cooling_rate": 0.95,
+      "iterations_per_temp": 100,
+      "max_iterations": 5000
+    },
+    "neural_architecture_search": {
+      "enabled": true,
+      "population_size": 50,
+      "generations": 100,
+      "mutation_rate": 0.1,
+      "crossover_rate": 0.8,
+      "elite_size": 5,
+      "tournament_size": 3
+    }
+  },
+  "cost_weights": {
+    "area_weight": 0.3,
+    "delay_weight": 0.25,
+    "error_weight": 0.2,
+    "complexity_weight": 0.15,
+    "interface_weight": 0.1
+  },
+  "onn_parameters": {
+    "wavelength": 1550,
+    "power_budget": 100,
+    "area_constraint": 10.0,
+    "precision_bits": 8
+  },
+  "electronic_parameters": {
+    "technology_node": "28nm",
+    "voltage": 0.9,
+    "max_frequency": 1000,
+    "area_constraint": 5.0
+  },
+  "interface_parameters": {
+    "clock_frequency": 100,
+    "data_width": 32,
+    "protocol": "AXI-Stream",
+    "synchronization": "dual_clock"
+  }
+} 

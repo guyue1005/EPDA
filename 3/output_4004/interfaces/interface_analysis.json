@@ -1,0 +1,779 @@
+{
+  "cross_partition_edges": [
+    [
+      "alu.acb_ib",
+      "alu.dout"
+    ],
+    [
+      "alu.acc_in",
+      "alu._rn2_dout"
+    ],
+    [
+      "alu.acc_out",
+      "alu.n0345"
+    ],
+    [
+      "alu.acc_out",
+      "alu.n0355"
+    ],
+    [
+      "alu.acc_out",
+      "alu.n0370"
+    ],
+    [
+      "alu.acc_out",
+      "alu.n0377"
+    ],
+    [
+      "alu.acc_out",
+      "alu._rn1_dout"
+    ],
+    [
+      "alu.add_group_4",
+      "alu.cy_ada"
+    ],
+    [
+      "alu.add_ib",
+      "alu.dout"
+    ],
+    [
+      "alu.com_n",
+      "alu.cmram0"
+    ],
+    [
+      "alu.com_n",
+      "alu.cmram1"
+    ],
+    [
+      "alu.com_n",
+      "alu.cmram2"
+    ],
+    [
+      "alu.com_n",
+      "alu.cmrom"
+    ],
+    [
+      "alu.cy_ib",
+      "alu.dout"
+    ],
+    [
+      "alu.daa",
+      "alu.n0403"
+    ],
+    [
+      "alu.kbp",
+      "alu.n0354"
+    ],
+    [
+      "alu.kbp",
+      "alu.n0363"
+    ],
+    [
+      "alu.n0342",
+      "alu.acc_ada"
+    ],
+    [
+      "alu.n0342",
+      "alu.acc_adac"
+    ],
+    [
+      "alu.n0342",
+      "alu.cy_ada"
+    ],
+    [
+      "alu.n0342",
+      "alu.cy_adac"
+    ],
+    [
+      "alu.n0345",
+      "alu.n0357"
+    ],
+    [
+      "alu.n0345",
+      "alu.n0359"
+    ],
+    [
+      "alu.n0354",
+      "alu.n0358"
+    ],
+    [
+      "alu.n0358",
+      "alu._rn4_dout"
+    ],
+    [
+      "alu.n0363",
+      "alu.n0358"
+    ],
+    [
+      "alu.n0370",
+      "alu.n0359"
+    ],
+    [
+      "alu.n0370",
+      "alu.n0366"
+    ],
+    [
+      "alu.n0377",
+      "alu.n0357"
+    ],
+    [
+      "alu.n0377",
+      "alu.n0359"
+    ],
+    [
+      "alu.n0377",
+      "alu.n0366"
+    ],
+    [
+      "alu.n0403",
+      "alu.n0358"
+    ],
+    [
+      "alu.n0415",
+      "alu.dout"
+    ],
+    [
+      "alu.n0477",
+      "alu.adc_cy"
+    ],
+    [
+      "alu.n0553",
+      "alu.n0875"
+    ],
+    [
+      "alu.n0556",
+      "alu.n0913"
+    ],
+    [
+      "alu.n0559",
+      "alu.n0877"
+    ],
+    [
+      "alu.n0749",
+      "alu.cmram0"
+    ],
+    [
+      "alu.n0803",
+      "alu.n0378"
+    ],
+    [
+      "alu.n0871",
+      "alu.n0875"
+    ],
+    [
+      "alu.n0872",
+      "alu.n0879"
+    ],
+    [
+      "alu.n0873",
+      "alu.n0877"
+    ],
+    [
+      "alu.n0877",
+      "alu.n0514"
+    ],
+    [
+      "alu.n0878",
+      "alu.n0846"
+    ],
+    [
+      "alu.n0889",
+      "alu.n0875"
+    ],
+    [
+      "alu.n0891",
+      "alu.n0913"
+    ],
+    [
+      "alu.n0893",
+      "alu.n0914"
+    ],
+    [
+      "alu.n0912",
+      "alu.n0556"
+    ],
+    [
+      "alu.n0913",
+      "alu.n0559"
+    ],
+    [
+      "alu.n0914",
+      "alu.n0861"
+    ],
+    [
+      "alu.o_ib",
+      "alu.n0378"
+    ],
+    [
+      "alu.ral",
+      "alu.adsl"
+    ],
+    [
+      "alu.read_acc_3",
+      "alu.acc_ada"
+    ],
+    [
+      "alu.x21_clk2",
+      "alu.n0351"
+    ],
+    [
+      "alu.x31_clk2",
+      "alu.acb_ib"
+    ],
+    [
+      "alu.x31_clk2",
+      "alu.add_ib"
+    ],
+    [
+      "alu.x31_clk2",
+      "alu.adsl"
+    ],
+    [
+      "alu.x31_clk2",
+      "alu.adsr"
+    ],
+    [
+      "alu.x31_clk2",
+      "alu.cy_ib"
+    ],
+    [
+      "alu._rn1_dout",
+      "alu.dout"
+    ]
+  ],
+  "onn_nodes": [
+    "alu.cmrom",
+    "alu.tmp",
+    "alu.n0556",
+    "alu.kbp",
+    "alu.rar",
+    "alu.adsl",
+    "alu.n0914",
+    "alu.n0751",
+    "alu.n0370",
+    "alu.n0848",
+    "alu.n0891",
+    "alu.n0342",
+    "alu.adc_cy",
+    "alu.x21_clk2",
+    "alu.add_ib",
+    "alu.n0355",
+    "alu._rn1_dout",
+    "alu.n0873",
+    "alu.n0377",
+    "alu.iow",
+    "alu.m12",
+    "alu.n0546",
+    "alu.n0875",
+    "alu.n0847",
+    "alu.n0358",
+    "alu.n0559",
+    "alu.add_group_4",
+    "alu.read_acc_3",
+    "alu.inc_isz",
+    "alu.n0854",
+    "alu.cmram1",
+    "alu.n0378",
+    "alu.write_carry_2",
+    "alu.n0345",
+    "alu.n0415",
+    "alu.acc_in",
+    "alu.cmram2",
+    "alu.inc_group_5",
+    "alu.ope_n",
+    "alu.add_0",
+    "alu.n0879",
+    "alu.acb_ib",
+    "alu.xch",
+    "alu.poc",
+    "alu.n0514",
+    "alu.n0846",
+    "alu.adsr",
+    "alu.cmram0",
+    "alu.daa",
+    "alu.cy_ib",
+    "alu.n0750",
+    "alu.acc",
+    "alu.x12"
+  ],
+  "electronic_nodes": [
+    "alu.cmram3",
+    "alu.cy",
+    "alu.tcs",
+    "alu.write_acc_1",
+    "alu.acc_adac",
+    "alu.n0354",
+    "alu.n0371",
+    "alu.ior",
+    "alu.n0550",
+    "alu.n0870",
+    "alu.n0871",
+    "alu.add_acc",
+    "alu.dout",
+    "alu._rn0_dout",
+    "alu.n0366",
+    "alu.n0913",
+    "alu.n0878",
+    "alu.n0889",
+    "alu.n0357",
+    "alu.n0359",
+    "alu.acc_out",
+    "alu.acc_0",
+    "alu.n0363",
+    "alu.com_n",
+    "alu.o_ib",
+    "alu.n0749",
+    "alu.n0553",
+    "alu.sub_group_6",
+    "alu._rn4_dout",
+    "alu.n0803",
+    "alu.n0351",
+    "alu.n0872",
+    "alu.dcl",
+    "alu.acc_ada",
+    "alu.cma",
+    "alu.n0861",
+    "alu._rn2_dout",
+    "alu._rn3_dout",
+    "alu.n0893",
+    "alu.cy_adac",
+    "alu.n0887",
+    "alu.n0403",
+    "alu.data",
+    "alu.n0477",
+    "alu.sysclk",
+    "alu.n0912",
+    "alu.n0911",
+    "alu.n0877",
+    "alu.cy_ada",
+    "alu.cy_1",
+    "alu.x31_clk2",
+    "alu.n0364",
+    "alu.ral",
+    "alu.a12"
+  ],
+  "interface_signals": [
+    {
+      "name": "alu_dout_from_alu_acb_ib",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.acb_ib 到 alu.dout 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu__rn2_dout_from_alu_acc_in",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.acc_in 到 alu._rn2_dout 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_acc_out_to_alu_n0345",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.acc_out 到 alu.n0345 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_acc_out_to_alu_n0355",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.acc_out 到 alu.n0355 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_acc_out_to_alu_n0370",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.acc_out 到 alu.n0370 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_acc_out_to_alu_n0377",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.acc_out 到 alu.n0377 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_acc_out_to_alu__rn1_dout",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.acc_out 到 alu._rn1_dout 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_cy_ada_from_alu_add_group_4",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.add_group_4 到 alu.cy_ada 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_dout_from_alu_add_ib",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.add_ib 到 alu.dout 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_com_n_to_alu_cmram0",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.com_n 到 alu.cmram0 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_com_n_to_alu_cmram1",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.com_n 到 alu.cmram1 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_com_n_to_alu_cmram2",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.com_n 到 alu.cmram2 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_com_n_to_alu_cmrom",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.com_n 到 alu.cmrom 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_dout_from_alu_cy_ib",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.cy_ib 到 alu.dout 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0403_from_alu_daa",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.daa 到 alu.n0403 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0354_from_alu_kbp",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.kbp 到 alu.n0354 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0363_from_alu_kbp",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.kbp 到 alu.n0363 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_acc_ada_from_alu_n0342",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0342 到 alu.acc_ada 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_acc_adac_from_alu_n0342",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0342 到 alu.acc_adac 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_cy_ada_from_alu_n0342",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0342 到 alu.cy_ada 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_cy_adac_from_alu_n0342",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0342 到 alu.cy_adac 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0357_from_alu_n0345",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0345 到 alu.n0357 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0359_from_alu_n0345",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0345 到 alu.n0359 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0354_to_alu_n0358",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0354 到 alu.n0358 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu__rn4_dout_from_alu_n0358",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0358 到 alu._rn4_dout 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0363_to_alu_n0358",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0363 到 alu.n0358 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0359_from_alu_n0370",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0370 到 alu.n0359 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0366_from_alu_n0370",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0370 到 alu.n0366 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0357_from_alu_n0377",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0377 到 alu.n0357 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0359_from_alu_n0377",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0377 到 alu.n0359 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0366_from_alu_n0377",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0377 到 alu.n0366 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0403_to_alu_n0358",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0403 到 alu.n0358 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_dout_from_alu_n0415",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0415 到 alu.dout 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0477_to_alu_adc_cy",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0477 到 alu.adc_cy 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0553_to_alu_n0875",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0553 到 alu.n0875 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0913_from_alu_n0556",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0556 到 alu.n0913 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0877_from_alu_n0559",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0559 到 alu.n0877 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0749_to_alu_cmram0",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0749 到 alu.cmram0 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0803_to_alu_n0378",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0803 到 alu.n0378 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0871_to_alu_n0875",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0871 到 alu.n0875 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0872_to_alu_n0879",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0872 到 alu.n0879 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0877_from_alu_n0873",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0873 到 alu.n0877 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0877_to_alu_n0514",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0877 到 alu.n0514 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0878_to_alu_n0846",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0878 到 alu.n0846 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0889_to_alu_n0875",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0889 到 alu.n0875 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0913_from_alu_n0891",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0891 到 alu.n0913 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0893_to_alu_n0914",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0893 到 alu.n0914 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0912_to_alu_n0556",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0912 到 alu.n0556 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0913_to_alu_n0559",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0913 到 alu.n0559 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_n0861_from_alu_n0914",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.n0914 到 alu.n0861 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_o_ib_to_alu_n0378",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.o_ib 到 alu.n0378 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_ral_to_alu_adsl",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.ral 到 alu.adsl 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_acc_ada_from_alu_read_acc_3",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.read_acc_3 到 alu.acc_ada 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_n0351_from_alu_x21_clk2",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.x21_clk2 到 alu.n0351 的onn到electronic接口信号"
+    },
+    {
+      "name": "alu_x31_clk2_to_alu_acb_ib",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.x31_clk2 到 alu.acb_ib 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_x31_clk2_to_alu_add_ib",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.x31_clk2 到 alu.add_ib 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_x31_clk2_to_alu_adsl",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.x31_clk2 到 alu.adsl 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_x31_clk2_to_alu_adsr",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.x31_clk2 到 alu.adsr 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_x31_clk2_to_alu_cy_ib",
+      "direction": "output",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu.x31_clk2 到 alu.cy_ib 的electronic到onn接口信号"
+    },
+    {
+      "name": "alu_dout_from_alu__rn1_dout",
+      "direction": "input",
+      "bit_width": 1,
+      "signal_type": "wire",
+      "description": "从 alu._rn1_dout 到 alu.dout 的onn到electronic接口信号"
+    }
+  ],
+  "data_dependencies": {},
+  "timing_constraints": {}
+}
